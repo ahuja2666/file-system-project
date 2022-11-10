@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.login-conatiner {
+  background-color: #ff7978;
+}
+.sb-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.wlcom-ctn,
+.login-ctn {
+  margin: 14.8rem 1rem;
+  color: antiquewhite;
+}
+.login-ctn {
+  background-color: antiquewhite;
+  color: black;
+  border: 1px solid white;
+  border-radius: 7px;
+  padding: 1rem;
+}
+
+.heading {
+  padding: 0 5rem 5rem 5rem;
+}
+.para {
+  padding-left: 5rem;
+}
+#signInDiv {
+  margin: 3rem;
+  margin-left: 12rem;
+}

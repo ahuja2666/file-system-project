@@ -1,0 +1,68 @@
+.container-box {
+  background-color: lightblue;
+  padding: 1rem;
+  min-height: 100vh;
+}
+.userbox {
+  display: flex;
+  justify-content: space-between;
+}
+.userimg {
+  border: 1px dotted black;
+  border-radius: 50%;
+}
+.logoutbtn {
+  float: right;
+  margin: 1rem;
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 0.5rem;
+}
+.file-section {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.eachfilese {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 7px;
+  padding: 2rem;
+  max-width: min-content;
+  max-height: min-content;
+}
+#card-of-file {
+  padding: 1rem;
+}
+#margin-htao {
+  margin-top: 0;
+}
+.imgofic {
+  display: block;
+}
+.dwnbtn,
+.uploadbtn {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+.dwnbtn {
+  width: 100%;
+  margin: 0;
+}
+
+#progressbar {
+  width: 33%;
+  margin-bottom: 2rem;
+}
+#file-upload-btn:disabled {
+  cursor: not-allowed !important;
+  background-color: gray;
+}
+.warn-ing {
+  color: red;
+}
